@@ -1,0 +1,10 @@
+namespace: test
+name: nginx
+containers:
+  image: nginx
+  tag: 1.19
+resources:
+  limits:
+    memory: "1Gi"
+    cpu: "200m"
+
